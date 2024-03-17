@@ -30,7 +30,7 @@
                 },
                 {
                     "name": "MONGO_HOST",
-                    "value": "docdb-2024-03-16-22-51-34.cluster-c10ffknjsfsb.us-east-1.docdb.amazonaws.com"
+                    "value": "docdb-2024-03-16-22-51-34.c10ffknjsfsb.us-east-1.docdb.amazonaws.com"
                 },
                 {
                     "name": "MONGO_DATABASE",
