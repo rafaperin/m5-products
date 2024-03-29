@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:604623258149:task-definition/m5-products:4",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:604623258149:task-definition/m5-products:6",
     "containerDefinitions": [
         {
             "name": "m5-products",
-            "image": "604623258149.dkr.ecr.us-east-1.amazonaws.com/m5-products:2ffdb6ab3f4ca294344000a9600286b9ff2621d4",
+            "image": "604623258149.dkr.ecr.us-east-1.amazonaws.com/m5-products:c162ec05a4e74bd8e0a72dececf703896c7d670e",
             "cpu": 0,
             "portMappings": [
                 {
@@ -54,8 +54,7 @@
                     "awslogs-group": "/ecs/m5-products",
                     "awslogs-region": "us-east-1",
                     "awslogs-stream-prefix": "ecs"
-                },
-                "secretOptions": []
+                }
             },
             "systemControls": []
         }
@@ -64,7 +63,7 @@
     "taskRoleArn": "arn:aws:iam::604623258149:role/my-ecs-execution-role",
     "executionRoleArn": "arn:aws:iam::604623258149:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 4,
+    "revision": 6,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -110,7 +109,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-03-17T17:57:24.820Z",
-    "registeredBy": "arn:aws:iam::604623258149:root",
+    "registeredAt": "2024-03-17T18:12:12.010Z",
+    "registeredBy": "arn:aws:iam::604623258149:user/rafael.perin.m5",
     "tags": []
 }
